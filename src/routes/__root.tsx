@@ -20,7 +20,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Chat Starter',
+        title: 'Agent IA Calvados - Assistant Intelligence Artificielle',
       },
     ],
     links: [
