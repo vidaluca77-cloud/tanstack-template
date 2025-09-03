@@ -236,7 +236,7 @@ function Home() {
       <div className="absolute z-50 top-5 right-5">
         <button
           onClick={() => setIsSettingsOpen(true)}
-          className="flex items-center justify-center w-10 h-10 text-white transition-opacity rounded-full bg-gradient-to-r from-orange-500 to-red-600 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-orange-500"
+          className="flex items-center justify-center w-10 h-10 text-white transition-opacity rounded-full bg-gradient-to-r from-blue-500 to-blue-700 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           <Settings className="w-5 h-5" />
         </button>
@@ -259,13 +259,13 @@ function Home() {
       {/* Main Content */}
       <div className="flex flex-col flex-1">
         {!isAnthropicKeyDefined && (
-          <div className="w-full max-w-3xl px-2 py-2 mx-auto mt-4 mb-2 font-medium text-center text-white bg-orange-500 rounded-md text-sm">
-            <p>This app requires an Anthropic API key to work properly. Update your <code>.env</code> file or get a <a href='https://console.anthropic.com/settings/keys' className='underline'>new Anthropic key</a>.</p>
-            <p>For local development, use <a href='https://www.netlify.com/products/dev/' className='underline'>netlify dev</a> to automatically load environment variables.</p>
+          <div className="w-full max-w-3xl px-2 py-2 mx-auto mt-4 mb-2 font-medium text-center text-white bg-blue-600 rounded-md text-sm">
+            <p>Cette application nécessite une clé API Anthropic pour fonctionner. Mettez à jour votre fichier <code>.env</code> ou obtenez une <a href='https://console.anthropic.com/settings/keys' className='underline'>nouvelle clé Anthropic</a>.</p>
+            <p>Pour le développement local, utilisez <a href='https://www.netlify.com/products/dev/' className='underline'>netlify dev</a> pour charger automatiquement les variables d'environnement.</p>
           </div>
         )}
         {error && (
-          <p className="w-full max-w-3xl p-4 mx-auto font-bold text-orange-500">{error}</p>
+          <p className="w-full max-w-3xl p-4 mx-auto font-bold text-blue-600">{error}</p>
         )}
         {currentConversationId ? (
           <>

@@ -1,10 +1,31 @@
-# TanStack Chat Template
+# Agent IA Calvados
 
-![TanStack Starter Preview](tanstack-starter-preview.jpg)
+![Agent IA Calvados Preview](tanstack-starter-preview.jpg)
 
-A modern chat template built with TanStack Router and Claude AI integration features a clean and responsive interface.
+L'Agent IA Calvados est un assistant intelligence artificielle moderne conçu pour servir les citoyens du département du Calvados. Construit avec TanStack Router et l'intégration de Claude AI, il propose une interface propre et réactive pour les services publics.
 
-**⚡ View demo:** [https://tanstack-starter.netlify.app/](https://tanstack-starter.netlify.app/)
+**⚡ Voir la démo:** [https://tanstack-starter.netlify.app/](https://tanstack-starter.netlify.app/)
+
+## À propos de l'Agent IA Calvados
+
+L'Agent IA Calvados est un outil numérique innovant au service du peuple, développé pour :
+
+- **Accompagner les citoyens** dans leurs démarches administratives
+- **Informer sur les services publics** du département du Calvados  
+- **Orienter vers les bons interlocuteurs** selon les besoins
+- **Répondre aux questions** sur la vie administrative et locale
+- **Promouvoir l'accessibilité** des services publics numériques
+
+### Services couverts
+
+- Services du Conseil Départemental du Calvados
+- Démarches administratives (état civil, permis, cartes d'identité...)
+- Services sociaux et aide aux familles
+- Information sur les collèges et l'éducation
+- Routes départementales et transports
+- Aide aux personnes âgées et handicapées
+- Patrimoine et culture normande
+- Tourisme en Normandie
 
 ## Table of Contents
 - [Deploy to Netlify](#deploy-to-netlify)
